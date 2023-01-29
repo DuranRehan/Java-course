@@ -1,0 +1,26 @@
+#root{
+    -fx-background-color: #9fcdd4;
+}
+#menu,Button{
+    -fx-text-fill: black;
+    -fx-text-alignment: center;
+    -fx-font-weight: bold;
+}
+#menuBar,#pathTableView,Button,#clearBtn{
+    -fx-background-color: #d0f0f5;
+}
+#linesCol,#stationsCol{
+    -fx-background-color: #7aedff;
+}
+ScrollBar{
+    -fx-background-color: transparent;
+    -fx-opacity: 2;
+    -fx-padding: 2;
+}
+
+.table-view .virtual-flow .scroll-bar .increment-button,
+.table-view .virtual-flow .scroll-bar .decrement-button {
+    -fx-opacity: 0;
+    -fx-padding: 2;
+    -fx-background-color: transparent;
+}
